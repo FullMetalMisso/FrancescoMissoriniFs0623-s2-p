@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.text-color-global {
+  color: black; 
+}
+
+.my-bg-home {
+  height: 100vh;
+}
+
+
+.custom-font {
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+.my-card-custom {
+  background-color: rgba(17, 91, 169, 0.219);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.my-animation-card:hover {
+  cursor: pointer;
+  transform: scale(1.1)
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px; 
+  font-size: 14px;
+}
